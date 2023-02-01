@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: ghostwhite;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: 'Poppins', Helvetica, sans-serif ;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+p {
+    font-family: 'Inter', Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.3rem;
+    color: darkgray;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4rem;
+}
+
+.card {
+    background-color: white;
+    height: 580px;
+    width: 400px;
+    border-radius: 16px 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.qr-container {
+    margin: 1rem auto auto auto;
+    height: 368px;
+    width: 368px;
+    border-radius: 8px 8px;
+    background-image: url("../images/image-qr-code.png");
+    background-size: cover;
+    background-color: dodgerblue;
+
+}
+
+.header-box {
+    padding: 2rem 2rem 1.1rem 2rem;
+    text-align: center;
+}
+
+.copy-box {
+    padding: 0 2rem 2rem 2rem;
+    text-align: center;
+}
